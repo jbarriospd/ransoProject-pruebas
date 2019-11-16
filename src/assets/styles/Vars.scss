@@ -18,7 +18,7 @@ $height-footer: 50px;
 $width-sidenav: 240px;
 
 @mixin profile-avatar {
-  background-image: url('https://dashboard.mx/ffct_laravel/public/img/user.png');
+  // background-image: url('https://dashboard.mx/ffct_laravel/public/img/user.png');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;

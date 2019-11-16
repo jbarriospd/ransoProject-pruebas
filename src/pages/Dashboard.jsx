@@ -9,16 +9,10 @@ import Footer from '../components/Footer';
 const Dashboard = () => (
 
   <div className="grid">
-
     <Header/>
-
     <Sidenav/>
-
     <Main/>
     <Footer/>
-
-
-
   </div>
 
 );
