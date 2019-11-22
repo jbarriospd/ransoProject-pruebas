@@ -1,16 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../assets/styles/components/Header.scss';
+import { loadavg } from 'os';
 // import logo from '../assets/static/logo-platzi-video-BW2.png';
 // import userIcon from '../assets/static/user-icon.png';
 
-const Header = () => (
-  <header className="header">
+const Header = () => {
+
+  const [ isActive, setIsActive ] = useState(false);
+  
+  function toogleMenu() {
+
+    setIsActive(!isActive);
+  }
+
+  return (
+
+    <header className="header">
     <i className="fas fa-bars header__menu"></i>
     <div className="header__search">
       <input className="header__input" placeholder="Buscar..." />
     </div>
-    <div className="header__avatar">
-      <div className="dropdown">
+    <div className="header__avatar" onClick={toogleMenu}>
+      <div className={isActive ? 'dropdown dropdown--active' : 'dropdown'}>
         <ul className="dropdown__list">
           <li className="dropdown__list-item">
             <span className="dropdown__icon"><i className="far fa-user"></i></span>
@@ -28,6 +39,7 @@ const Header = () => (
       </div>
     </div>
   </header>
-);
+  )
+}
 
 export default Header;
