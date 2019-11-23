@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Dashboard from './pages/Dashboard';
-// import Header from './components/Header';
+import Dashboard from './containers/Dashboard';
+import Home from './containers/Home';
 
-ReactDOM.render(<Dashboard />, document.getElementById('app'));
+
+ReactDOM.render(<Home />, document.getElementById('app'));

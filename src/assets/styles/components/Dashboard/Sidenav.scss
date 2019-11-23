@@ -1,6 +1,7 @@
 
-@import "../Vars.scss";
-@import "../Media.scss";
+
+@import "../../Vars.scss";
+@import "../../Media.scss";
 
 .sidenav {
   position: fixed; // Access sidenav at any scroll position; relatively positioned on medium + screens

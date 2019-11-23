@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../assets/styles/components/Main.scss';
+import '../../assets/styles/components/Dashboard/Main.scss';
 
 const Main = () => (
   

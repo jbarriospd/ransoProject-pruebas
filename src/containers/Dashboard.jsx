@@ -1,9 +1,9 @@
 import React from 'react';
-import '../assets/styles/pages/Dashboard.scss';
+import '../assets/styles/containers/Dashboard.scss';
 
 import Header from '../components/Header';
-import Sidenav from '../components/Sidenav';
-import Main from '../components/Main';
+import Sidenav from '../components/Dashboard/Sidenav';
+import Main from '../components/Dashboard/Main';
 import Footer from '../components/Footer';
 
 const Dashboard = () => (

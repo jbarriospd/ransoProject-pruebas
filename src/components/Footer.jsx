@@ -4,8 +4,8 @@ import '../assets/styles/components/Footer.scss';
 const Footer = () => (
 
   <footer className="footer">
-    <p><span className="footer__copyright">&copy;</span> 2019 </p>
-    <p>Hecho con  <i className="fas fa-heart footer__icon"></i> jbarriospd y afelipe</p>
+    <p>Ranso Project<span className="footer__copyright">&copy;</span> 2019  | All rights reserved</p>
+    <p>By jbarriospd & afelipelds</p>
   </footer>
 )
 

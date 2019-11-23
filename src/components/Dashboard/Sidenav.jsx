@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/components/Sidenav.scss';
+import '../../assets/styles/components/Dashboard/Sidenav.scss';
 
 const Sidenav = () => (
 
