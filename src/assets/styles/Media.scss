@@ -1,3 +1,4 @@
+
 @media only screen and (min-width: 46.875em) {
   // Break out to sidenav grid layout on medium + screens
   .grid {
@@ -38,25 +39,6 @@
     &__avatar {
       width: 40px;
       height: 40px;
-    }
-  }
-}
-
-// Medium screens breakpoint (1050px)
-@media only screen and (min-width: 65.625em) {
-  .main {
-    &__cards {
-      column-count: 2;
-    }
-  }
-
-  .main-header {
-    &__intro-wrapper {
-      flex-direction: row;
-    }
-
-    &__welcome {
-      align-items: flex-start;
     }
   }
 }

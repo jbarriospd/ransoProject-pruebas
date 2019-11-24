@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
 $color-fiord: #394263; // sidenav bg & dark text
 $color-white: #fff; // card bg
 $color-athens-gray: #eaedf1; // content bg
@@ -17,8 +20,7 @@ $height-header: 50px;
 $height-footer: 50px;
 $width-sidenav: 240px;
 
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
 
 @mixin profile-avatar {
   background-image: url('https://dashboard.mx/ffct_laravel/public/img/user.png');
@@ -31,3 +33,4 @@ $width-sidenav: 240px;
 @mixin box-shadow {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
+
