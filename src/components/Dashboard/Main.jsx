@@ -16,6 +16,7 @@ const Main = () => (
             <div className="quickview__item-total">41</div>
             <div className="quickview__item-description">
               <i className="far fa-eye"></i>
+              &nbsp;
               <span className="text-light">Visualizaciones</span>
             </div>
           </div>
@@ -23,6 +24,7 @@ const Main = () => (
             <div className="quickview__item-total">64</div>
             <div className="quickview__item-description">
               <i className="far fa-comment"></i>
+              &nbsp;
               <span className="text-light">Mensajes</span>
             </div>
           </div>
@@ -30,6 +32,7 @@ const Main = () => (
             <div className="quickview__item-total">+122K</div>
             <div className="quickview__item-description">
               <i className="fas fa-heart"></i>
+              &nbsp;
               <span className="text-light">Likes</span>
             </div>
           </div>
