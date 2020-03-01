@@ -2,11 +2,12 @@ import React from 'react';
 import '../../assets/styles/components/Dashboard/Sidenav.scss';
 
 const Sidenav = () => (
-
   <aside className="sidenav">
     <div className="sidenav__brand">
       <i className="fas fa-microphone-alt"></i>
-      <a className="sidenav__brand-link" href="#">RichardKJS</a>
+      <a className="sidenav__brand-link" href="#">
+        RichardKJS
+      </a>
       <i className="fas fa-times sidenav__brand-close"></i>
     </div>
     <div className="sidenav__profile">
@@ -74,7 +75,6 @@ const Sidenav = () => (
       </ul>
     </div>
   </aside>
-
 );
 
-export default Sidenav
+export default Sidenav;
